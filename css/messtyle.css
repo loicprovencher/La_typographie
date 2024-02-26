@@ -25,7 +25,28 @@ body{
 
 header{
     background-color: #34495E;
+    height: 200px;
 }
 
+header h1{
+font-family:'Roboto', 'Open Sans', 'Helvetica Neue', sans-serif ;
+font-size: 96px;
+font-weight: 700;
+color: white;
+letter-spacing: 25px;
+text-align: center;
+padding-top: 50px;
+}
 
-
+.Slogan{
+text-align: right;
+font-size: 48px;
+font-weight: 100;
+font-family: 'Lato' , 'sans serif';
+letter-spacing: 4px;
+height: 230px;
+text-align: center;
+display: flex;
+flex-direction: column;
+justify-content: center;
+}
