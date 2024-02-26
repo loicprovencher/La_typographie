@@ -58,17 +58,23 @@ a :hover{
     background-color: #BDC3C7;
 }
 
-
+.article a{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
 
 .cercle {
-    display: grid;
-    text-align: right;
+    width: 150px;
+    height: 150px;
+    text-align: center;
     color: #D35400;
     font-size: 24px;
     font-weight: 700;
     border-radius: 50%;
     background-color: white;
-    border: 2px solid #D35400;
+    border: 5px solid #D35400;
+    line-height: 140px;
 }
 
 .guillemets .wrapper{
@@ -83,14 +89,9 @@ a :hover{
     color: #000000;
 }
 
-.regle{
+.regle a{
     text-decoration: none;
 }
-
-
-
-
-
 
 
 /*===============Info=================*/
