@@ -54,10 +54,40 @@ justify-content: center;
 
 /*===============regle=================*/
 
-.guillemets .wrapper{
-    grid-template-columns: 1fr 2fr;
+a :hover{
     background-color: #BDC3C7;
 }
+
+
+
+.cercle {
+    display: grid;
+    text-align: right;
+    color: #D35400;
+    font-size: 24px;
+    font-weight: 700;
+    border-radius: 50%;
+    background-color: white;
+    border: 2px solid #D35400;
+}
+
+.guillemets .wrapper{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+.texte{
+    font-family: "Quicksand", sans-serif;
+    font-size: 36px;
+    line-height: 60px;
+    color: #000000;
+}
+
+.regle{
+    text-decoration: none;
+}
+
+
 
 
 
@@ -76,6 +106,10 @@ justify-content: center;
 .info p{
     padding: 30px;
     text-align: left;
+}
+
+.info p span{
+    font-weight: 700;
 }
 
 /*===============Footer=================*/
